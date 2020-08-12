@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.4" tiledversion="1.4.1" orientation="orthogonal" renderorder="right-down" width="5" height="5" tilewidth="16" tileheight="16" infinite="0" nextlayerid="5" nextobjectid="1">
+ <tileset firstgid="1" source="Art Tileset.tsx"/>
+ <layer id="1" name="regions" width="5" height="5">
+  <data encoding="base64" compression="zstd">
+   KLUv/SBkjQAAGAAA8QUAgIY3C8AKK931ABY=
+  </data>
+ </layer>
+ <layer id="2" name="input_ground" width="5" height="5">
+  <properties>
+   <property name="StrictEmpty" type="bool" value="true"/>
+  </properties>
+  <data encoding="base64" compression="zstd">
+   KLUv/SBkfQAAKAAAIyQAAwDjIq5k7APa
+  </data>
+ </layer>
+ <layer id="4" name="output_ground" width="5" height="5">
+  <data encoding="base64" compression="zstd">
+   KLUv/SBkfQAAKAAAMzQAAwA4gSsu+wna
+  </data>
+ </layer>
+</map>
