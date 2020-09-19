@@ -2,15 +2,20 @@ import pathlib
 
 import pygame as pg
 
+
+
 import pytmx, pyscroll
 
 
 # Start Pygame
 pg.init()
 
+import Maps
+
 # Start the screen
 screen = pg.display.set_mode((640, 480))
 
+map = Maps.Map("Assests/Map/Test.tmx").get_map()
 
 char_image = pg.image.load('Assests/Adventurer-1.5/Individual Sprites/adventurer-idle-01.png')
 char_x = 0
@@ -65,6 +70,10 @@ while running:
     char_x += speed_x
     char_y += speed_y
     screen.blit(char_image, (char_x, char_y))
+
+    map.center((char_x, char_y))
+    map.draw(screen)
+
 
     # Update Display
 
