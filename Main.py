@@ -2,10 +2,7 @@ import pathlib
 
 import pygame as pg
 
-
-
 import pytmx, pyscroll
-
 
 # Start Pygame
 pg.init()
@@ -21,7 +18,6 @@ char_image = pg.image.load('Assests/Adventurer-1.5/Individual Sprites/adventurer
 char_x = 0
 char_y = 0
 
-
 char_speed = 2
 
 speed_x = 0
@@ -30,58 +26,39 @@ speed_y = 0
 
 moving = False
 
-
-
 running = True
 while running:
 
     for event in pg.event.get():
-        if event.type == pg.KEYDOWN:
-
-            if event.key == 273:
-                speed_y -= char_speed
-                print("up")
-            elif event.key == 274:
-                speed_y += char_speed
-                print("down")
-            else:
-                speed_y = 0
-
-            if event.key == 275:
-                speed_x += char_speed
-                print("right")
-            elif event.key == 276:
-                speed_x -= char_speed
-                print("left")
-            else:
-                speed_x = 0
-
         # The user closed the window!
         if event.type == pg.QUIT:
-
             # Stop running
             running = False
 
     # Logic goes here
 
-    screen.fill((0, 0, 0))
+    keys = pg.key.get_pressed()
 
+    if keys[pg.K_UP]:
+        char_y -= char_speed
 
-    char_x += speed_x
-    char_y += speed_y
+    if keys[pg.K_DOWN]:
+        char_y += char_speed
 
+    if keys[pg.K_LEFT]:
+        char_x -= char_speed
+
+    if keys[pg.K_RIGHT]:
+        char_x += char_speed
+
+    # Update Display
 
     map.center((char_x, char_y))
-
-
 
     map.draw(screen)
     screen.blit(char_image, (char_x, char_y))
 
-    # Update Display
-
     pg.display.flip()
-
 
 # Close the window
 pg.quit()
