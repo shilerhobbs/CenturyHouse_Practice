@@ -13,9 +13,17 @@ screen = pg.display.set_mode((640, 480))
 
 
 char_image = pg.image.load('Assests/Adventurer-1.5/Individual Sprites/adventurer-idle-01.png')
-charX = 0
-charY = 0
+char_x = 0
+char_y = 0
 
+
+char_speed = 2
+
+speed_x = 0
+
+speed_y = 0
+
+moving = False
 
 
 
@@ -26,17 +34,22 @@ while running:
         if event.type == pg.KEYDOWN:
 
             if event.key == 273:
-                charY -= 2
+                speed_y -= char_speed
                 print("up")
-            if event.key == 274:
-                charY += 2
+            elif event.key == 274:
+                speed_y += char_speed
                 print("down")
+            else:
+                speed_y = 0
+
             if event.key == 275:
-                charX += 2
+                speed_x += char_speed
                 print("right")
-            if event.key == 276:
-                charX -= 2
+            elif event.key == 276:
+                speed_x -= char_speed
                 print("left")
+            else:
+                speed_x = 0
 
         # The user closed the window!
         if event.type == pg.QUIT:
@@ -47,7 +60,11 @@ while running:
     # Logic goes here
 
     screen.fill((0, 0, 0))
-    screen.blit(char_image, (charX, charY))
+
+
+    char_x += speed_x
+    char_y += speed_y
+    screen.blit(char_image, (char_x, char_y))
 
     # Update Display
 
