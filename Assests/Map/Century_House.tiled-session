@@ -4,14 +4,8 @@
         "width": 2
     },
     "activeFile": "Test.tmx",
-    "automapping.whileDrawing": true,
     "expandedProjectPaths": [
     ],
-    "exportAsImage.drawTileGrid": false,
-    "exportAsImage.includeBackgroundColor": false,
-    "exportAsImage.useCurrentScale": true,
-    "exportAsImage.visibleLayersOnly": true,
-    "file.lastUsedOpenFilter": "All Files (*)",
     "fileStates": {
         "Art Tileset.tsx": {
             "scaleInDock": 2,
@@ -111,8 +105,8 @@
             "scale": 3,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 471.83333333333326,
-                "y": 319.83333333333337
+                "x": 329.5,
+                "y": 251.49999999999997
             }
         },
         "rule1.tmx": {
@@ -124,30 +118,19 @@
             }
         }
     },
-    "lastUsedTilesetExportFilter": "JSON tileset files (*.json)",
-    "loadedWorlds": [
-        "C:/Users/shile/PycharmProjects/TimeFantasyGit/TILESETS/Maps/Test_World.world"
-    ],
-    "map.fixedSize": true,
-    "map.height": 5,
-    "map.lastUsedExportFilter": "Tiled map files (*.tmx *.xml)",
+    "map.height": 20,
     "map.lastUsedFormat": "tmx",
-    "map.layerDataFormat": null,
-    "map.orientation": 1,
-    "map.tileHeight": 16,
-    "map.tileWidth": 16,
-    "map.width": 5,
+    "map.width": 30,
     "openFiles": [
         "Test.tmx",
         "Art Tileset.tsx",
         "rule1.tmx"
     ],
     "project": "Century_House.tiled-project",
-    "property.type": "bool",
     "recentFiles": [
         "Test.tmx",
-        "rule1.tmx",
         "Art Tileset.tsx",
+        "rule1.tmx",
         "Platformer.tsx",
         "C:/Users/shile/PycharmProjects/TimeFantasyGit/TILESETS/terrain.tsx",
         "C:/Users/shile/PycharmProjects/TimeFantasyGit/TILESETS/inside.tsx",
@@ -158,15 +141,5 @@
         "C:/Users/shile/PycharmProjects/TimeFantasyGit/TILESETS/house.tsx",
         "C:/Users/shile/PycharmProjects/TimeFantasyGit/TILESETS/water.tsx"
     ],
-    "tileset.embedInMap": false,
-    "tileset.lastUsedFormat": "tsx",
-    "tileset.margin": 0,
-    "tileset.spacing": 0,
-    "tileset.tileSize": {
-        "height": 16,
-        "width": 16
-    },
-    "tileset.transparentColor": "#ff00ff",
-    "tileset.type": 0,
-    "tileset.useTransparentColor": false
+    "tileset.lastUsedFormat": "tsx"
 }

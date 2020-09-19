@@ -1,9 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.4" tiledversion="1.4.1" orientation="orthogonal" renderorder="right-down" width="60" height="40" tilewidth="16" tileheight="16" infinite="0" nextlayerid="2" nextobjectid="1">
+<map version="1.4" tiledversion="1.4.1" orientation="orthogonal" renderorder="right-down" width="30" height="20" tilewidth="32" tileheight="32" infinite="0" nextlayerid="7" nextobjectid="10">
  <tileset firstgid="1" source="Art Tileset.tsx"/>
- <layer id="1" name="Tile Layer 1" width="60" height="40">
+ <objectgroup id="6" name="Object Layer 1">
+  <object id="1" name="wall" type="wall" x="65.6667" y="288.333" width="126.333" height="30.6667"/>
+  <object id="2" name="wall" type="wall" x="257.5" y="288.667" width="94.333" height="30.6667"/>
+  <object id="3" name="wall" type="wall" x="384.834" y="257" width="93.9997" height="30.6667"/>
+  <object id="4" name="wall" type="wall" x="545.833" y="193.333" width="93.6663" height="30.6667"/>
+  <object id="5" name="wall" type="wall" x="513.167" y="351.667" width="93.6663" height="30.6667"/>
+  <object id="6" name="wall" type="wall" x="449.833" y="449.333" width="93.6663" height="30.6667"/>
+  <object id="7" name="wall" type="wall" x="320.833" y="447.333" width="94.333" height="30.6667"/>
+  <object id="8" name="wall" type="wall" x="161.5" y="447.667" width="94.6663" height="30.6667"/>
+  <object id="9" name="wall" type="wall" x="1.16683" y="161.667" width="126.333" height="30.6667"/>
+ </objectgroup>
+ <layer id="1" name="Tile Layer 1" width="30" height="20">
   <data encoding="base64" compression="zstd">
-   KLUv/WCAJOUCAJQCAAAhAAAAIgAAACUAAAAmACMAAAAkACExAAAAMgAAADUAAAA2MwAAADQSgFBnaWs3xYP3NbxqBQEP98484/cGVudl1sBRa+CKKeTYEFtFP4MxB6YekHLtPogB
+   KLUv/WBgCMUBAFgJAAkAAAAKCwAJCQ+AUM01CaY+UHLGlipjBBmYGiaWKnBmj5ayvqD+GjSQpe0MxRWO0i7LlAqQ
+  </data>
+ </layer>
+ <layer id="2" name="Tile Layer 2" width="30" height="20">
+  <data encoding="base64" compression="zstd">
+   KLUv/WBgCE0AABAAAAEAW/EBFg==
+  </data>
+ </layer>
+ <layer id="3" name="Tile Layer 3" width="30" height="20">
+  <data encoding="base64" compression="zstd">
+   KLUv/WBgCE0AABAAAAEAW/EBFg==
+  </data>
+ </layer>
+ <layer id="4" name="Tile Layer 4" width="30" height="20">
+  <data encoding="base64" compression="zstd">
+   KLUv/WBgCE0AABAAAAEAW/EBFg==
+  </data>
+ </layer>
+ <layer id="5" name="Tile Layer 5" width="30" height="20">
+  <data encoding="base64" compression="zstd">
+   KLUv/WBgCE0AABAAAAEAW/EBFg==
   </data>
  </layer>
 </map>
