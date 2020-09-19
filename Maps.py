@@ -14,11 +14,11 @@ class Map:
         self.map_data = pyscroll.TiledMapData(self.tmx_data)
 
         for object in self.tmx_data.objects:
-            # name, type, visisble, width, height, x, y, properties, rotation, parent, image
+            # name, type, visible, width, height, x, y, properties, rotation, parent, image
             print(object)
 
     def get_map(self):
-        screen_size = (600, 300)
+        screen_size = (640, 480)
         map_layer = pyscroll.BufferedRenderer(self.map_data, screen_size)
 
         map_layer.zoom = 2.0
