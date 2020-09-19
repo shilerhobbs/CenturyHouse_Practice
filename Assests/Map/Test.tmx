@@ -13,28 +13,28 @@
   <object id="9" name="wall" type="wall" x="1.16683" y="161.667" width="126.333" height="30.6667"/>
  </objectgroup>
  <layer id="1" name="Tile Layer 1" width="30" height="20">
-  <data encoding="base64" compression="zstd">
-   KLUv/WBgCMUBAFgJAAkAAAAKCwAJCQ+AUM01CaY+UHLGlipjBBmYGiaWKnBmj5ayvqD+GjSQpe0MxRWO0i7LlAqQ
+  <data encoding="base64" compression="zlib">
+   eJzjZBgFo4D6gBOIuaCYe4DdQiqAuX2ouZsYQG2/4Yrn4RyG5IDR8CAfYAs7dLHR8B0FgxEAAJxjASw=
   </data>
  </layer>
  <layer id="2" name="Tile Layer 2" width="30" height="20">
-  <data encoding="base64" compression="zstd">
-   KLUv/WBgCE0AABAAAAEAW/EBFg==
+  <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T20JT6AAAHgaCWAAAQ==
   </data>
  </layer>
  <layer id="3" name="Tile Layer 3" width="30" height="20">
-  <data encoding="base64" compression="zstd">
-   KLUv/WBgCE0AABAAAAEAW/EBFg==
+  <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T20JT6AAAHgaCWAAAQ==
   </data>
  </layer>
  <layer id="4" name="Tile Layer 4" width="30" height="20">
-  <data encoding="base64" compression="zstd">
-   KLUv/WBgCE0AABAAAAEAW/EBFg==
+  <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T20JT6AAAHgaCWAAAQ==
   </data>
  </layer>
  <layer id="5" name="Tile Layer 5" width="30" height="20">
-  <data encoding="base64" compression="zstd">
-   KLUv/WBgCE0AABAAAAEAW/EBFg==
+  <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T20JT6AAAHgaCWAAAQ==
   </data>
  </layer>
 </map>
