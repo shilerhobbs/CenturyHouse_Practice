@@ -26,7 +26,7 @@ char_y = 0
 
 player = Sprites.Player()
 
-map_group(player)
+map_group.add(player)
 
 clock = pg.time.Clock()
 fps = 60
@@ -63,13 +63,13 @@ while running:
     if keys[pg.K_RIGHT]:
         player.rect.x += char_speed
 
-    print(pg.sprite.spritecollide(player, map.walls))
+    print(pg.sprite.spritecollide(player, map.walls, False))
 
     # Update Display
 
-    map.center(player.rect.center)
+    map_group.center(player.rect.center)
 
-    map.draw(screen)
+    map_group.draw(screen)
     screen.blit(char_image, (char_x, char_y))
 
     pg.display.flip()
