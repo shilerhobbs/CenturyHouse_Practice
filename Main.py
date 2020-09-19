@@ -69,11 +69,14 @@ while running:
 
     char_x += speed_x
     char_y += speed_y
-    screen.blit(char_image, (char_x, char_y))
+
 
     map.center((char_x, char_y))
-    map.draw(screen)
 
+
+
+    map.draw(screen)
+    screen.blit(char_image, (char_x, char_y))
 
     # Update Display
 
